@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>記事本文</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+  <header class="header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <div class="wrapper_wide wrapper__common">
+      <div class="header_inner">
+        <a class="header_homeLink" href="index.html">
+          <h1>takablog</h1>
+        </a>
+        <nav class="nav_navItems">
+          <a class="nav_navItem" href="#">
+            ブログ
+          </a>
+          <a class="nav_navItem" href="#">
+            プログラミング
+          </a>
+          <a class="nav_navItem" href="#">
+            雑記
+          </a>
+        </nav> 
+      </div> <!--/header_inner-->
+    </div>
+  </header>
+  <div class="container">
+    <div class="articleMain_customWrapper wrapper_wide wrapper__common">
+      <nav>
+        <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="#" itemprop="item">
+              <i class="fas fa-map-marker-alt icon-color" aria-hidden="true"></i>
+              <span itemprop="name">ホーム</span>
+            </a>
+            <i class="fas fa-chevron-right"></i>
+          </li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="#" itemprop="item">
+              <span itemprop="name">ブログ</span>
+            </a>
+            <i class="fas fa-chevron-right"></i>
+          </li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="#" itemprop="item">
+              <span itemprop="name">足跡</span>
+            </a>
+            <i class="fas fa-chevron-right"></i>
+          </li>
+        </ol>
+      </nav>
+      <div class="content">
+        <main class="articleMain_container">
+          <article class="articleMain_post">     
+            <div class="wrapper__common">
+              <h1 class="articleMain_postTitle">一人ごとを聞いてくれる我が家のアイドル柴犬ひなた、とりあえず真剣な目をしてエサを欲しているだけです</h1> 
+              <div class="articleMain_postMeta">      
+                <i class="fas fa-calendar-alt icon-left icon-color"></i>          
+                <time class="data">2021/04/04</time>             
+              </div>
+              <div class="articleMain_postThembnail" itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+                <img src="images/green.png" loading="lazy" alt="記事TOP画像">
+              </div>          
+            </div>            
+            <div class="articleMain_postContent">            
+              <div id="toc-target-content">
+                <div class="bodyContent_text">
+                  <p>誰よりも真剣な顔をするのがとくいです</p>
+                  <!-- 目次 -->
+                  <nav class="articleMain_toc">
+                    <h2>
+                      <i class="fas fa-th-list"></i>
+                     この記事の目次
+                    </h2>                  
+                    <ol class="">
+                      <li>
+                        <a href="#">
+                          目次1つめ
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          目次2つめ
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          目次3つめ
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          目次4つめ
+                        </a>
+                      </li>
+                    </ol>                   
+                  </nav>
+                  <h2>こちらｈ2の見出しで柴犬ひなたを語ります</h2>
+                  <p>スリッパを見るも無残な光景にしてしまういたずらっ子ですが</p>
+                  <p>どうしても憎めない、これが犬を飼うものの宿命なのか…</p>
+                  <p>叱ってもケロッとした顔で愛らしくすり寄ってくるなんて、どこでその接客学んだんだい
+                  </p>
+                  <h3>こちらｈ3の見出しです何を書いてるのかわからなくなってきた</h3>
+                  <p>箇条書きにしたらこんな風になるよ</p>
+                  <ol>
+                    <li>柴犬です</li>
+                    <li>種類は赤柴です</li>
+                    <li>お尻追いかけまわしてる</li>
+                  </ol>
+                  <p>柴犬のお尻についてはなそう</p>
+                  <h4>こちらｈ4の見出しです尻尾が可愛いのよ</h4>
+                  <p>狂ったように尻尾ばかり追いかけている</p>
+                  <p>調べてみたらストレスがたまっているとか<br>気持ちを落ち着かせるためらしい</p>
+                </div>
+              </div>            
+            </div>                            
+          </article>            
+        </main>
+        <aside class="sidebar">
+          <div class="widget_search">
+            <form role="search" method="get" id="searchform" class="searchform" action="#">
+              <div class="input-group">              
+                <input type="search" class="searchform_input" placeholder="検索" aria-label="search" name="s" id="s">
+                <button type="submit" id="searchform_submit" class="searchform_submit">
+                  <i class="fas fa-search" aria-hidden="true"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="widget widget_categories">
+            <h3 class="widgetTitle dfont">
+              <i class="fas fa-list icon-left"></i>
+              カテゴリー
+            </h3>
+            <ul class="categories_container">
+              <li>
+                <a class="cat-item" href="#">
+                  <i class="fas fa-desktop icon-left icon-color"></i>
+                  カテゴリー名
+                </a>
+                <ul class="cat-item_children">
+                  <li class="cat-item_childrenList">
+                    <a href="#">
+                      子要素カテゴリー
+                    </a>
+                  </li>
+                  <li class="cat-item_childrenList">
+                    <a href="#">
+                      子要素カテゴリー
+                    </a>
+                  </li>
+                  <li class="cat-item_childrenList">
+                    <a href="#">
+                      子要素カテゴリー
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="cat-item" href="#">
+                  <i class="fas fa-toilet-paper icon-left icon-color"></i>
+                  カテゴリー名
+                </a>
+              </li>
+              <ul class="cat-item_children">
+                <li class="cat-item_childrenList">
+                  <a href="#">
+                    子要素カテゴリー
+                  </a>
+                </li>
+                <li class="cat-item_childrenList">
+                  <a href="#">
+                    子要素カテゴリー
+                  </a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="widget Myprofile">        
+            <div class="profile-background">
+              <img src="images/pink.png" width="600" height="428" alt="プロフィール画像">
+            </div>
+            <div class="profile-img">
+              <img class="avatar" src="images/shibainu.jpg">
+            </div>
+            <p class="yourname dfont">inotaka</p>  
+            <div class="profile-content">
+              <p>自己紹介文をかく自己紹介文をかく自己紹介文をかく自己紹介文をかく自己紹介文をかく自己紹介文をかく</p>
+            </div>     
+            <ul class="profile-sns">
+              <li>
+                <a href="#" target="_blank" rel="nofollow noopener">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="nofollow noopener">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+            </ul>     
+          </div>
+          <div class="widget popular_posts">
+            <h3 class="widgetTitle dfont">
+              <i class="fas fa-chart-line icon-left"></i>
+              よく読まれている記事
+            </h3>
+            <ul class="popularArticles_container">
+              <li>
+                <span class="ranking-num dfont accent-bgColor">1</span>
+                <a href="#">
+                  <figure class="popular_postItem-img">
+                    <img src="images/pink.png" alt="記事のタイトル">
+                  </figure>
+                  <div class="popular_postItem-text">
+                    記事のタイトルが入ります
+                    <span class="dfont data-views">217121128Views</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <span class="ranking-num dfont accent-bgColor">2</span>
+                <a href="#">
+                  <figure class="popular_postItem-img">
+                    <img src="images/shibainu.jpg" alt="記事のタイトル">
+                  </figure>
+                  <div class="popular_postItem-text">
+                    記事のタイトルが入ります
+                    <span class="dfont data-views">2128Views</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <span class="ranking-num dfont accent-bgColor">3</span>
+                <a href="#">
+                  <figure class="popular_postItem-img">
+                    <img src="images/profileBg.png" alt="記事のタイトル">
+                  </figure>
+                  <div class="popular_postItem-text">
+                    記事のタイトルが入ります
+                    <span class="dfont data-views">21728Views</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <span class="ranking-num dfont accent-bgColor">4</span>
+                <a href="#">
+                  <figure class="popular_postItem-img">
+                    <img src="images/green.png" alt="記事のタイトル">
+                  </figure>
+                  <div class="popular_postItem-text">
+                    記事のタイトルが入ります
+                    <span class="dfont data-views">121128Views</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <a class="footer-home_btn" href="index.html">
+      <i class="fas fa-home icon-left"></i>
+      HOME
+    </a>
+    <p class="copyright">© 2021 inotaka  All rights reserved.</p>
+  </footer>
+</body>
+</html>
